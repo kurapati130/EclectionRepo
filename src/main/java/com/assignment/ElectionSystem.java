@@ -46,7 +46,7 @@ public class ElectionSystem {
     private static List<Region> regions = new ArrayList<>();
 
     public static void main(String[] args) {
-        readInput("C:\\Users\\kotar\\JAVA_PRACTICE\\workspace\\election-system\\src\\main\\resources\\voting.dat");
+        readInput("/Users/kurapatisarveswarao/Downloads/election-system/src/main/resources/voting.dat");
         countVotes();
         displayResults();
     }
